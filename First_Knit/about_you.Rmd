@@ -1,0 +1,100 @@
+---
+title: "First Knit"
+author: "Nalleli Tapia"
+date: "August 19, 2019"
+output: 
+  html_document:
+    number_sections: true
+    toc: true
+---
+
+### `r as.character(Sys.Date())`
+
+```{r include=FALSE,echo=FALSE}
+require(tidyverse)
+if(!require("imager")) {install.packages("imager");require("imager")}
+
+```
+
+```{r echo=FALSE,out.width='100%'}
+xx<-getwd()
+Drive_ltr <- strtrim(xx,2)
+yy <- str_glue("{Drive_ltr}\\AAA_Owner_Info\\My_photo.jpg")
+my_pict <- load.image(yy)
+plot(my_pict,axes=FALSE,main="I'm Confused")
+```
+
+# A Little Survey
+
+Here are just a few questions so I can get to know you and so you can get practice submitting an assignment in Canvas.  For each question, insert your answer underneath. Make sure each answer is at the minimum a complete sentence with correctly spelled words and correct puncuation. Half the points in this assignment depend on your picture and name being correct!!  Be sure to put your photo in the AAA_Owner_Info folder and call it My_photo.jpg after first renaming the current one to Koala.jpg . 
+
+##Where are you now?  
+What row are you in, front,middle or back?  Do you usually choose a similiar row in other classes? What is the computer number where you are sitting?  How on a scale of 1 to 10 (1=low, 10=high) How you feel about periodic seat re-assignment, say how and why. Teams, have you ever worked on one in a class setting?  
+
+
+###my answer
+
+I'm sitting in the third row, in the middle of the class. Yes, I normally sit in the middle or towards the front of the classroom to see the writing on the white board. I'm sitting at computer number 19. I don't really like periodic seat re-assignment. I believe we should sit where ever we please. I tend to be a creature of habit. I have worked in teams before but I much rather not have to if it's possible.
+  
+   
+   
+
+
+##Others and You?   
+What name do you prefer to be called by your classmates and instructor, if your buddys call you something but you want me to call you something else - what would that be? 
+
+###my answer     
+  
+I don't have any nicknames I go by. I rather just be called by my first name, Nalleli.   
+ 
+
+
+
+
+##Aspirations?   
+What do you want to achieve in life?  What college subject do you think would be of the greatest interest to you? What degree or certificate are you trying to achieve?
+
+###my answer     
+  
+I want to achieve many things and the first on my list as of late is to graduate from AVC with my AA degree in Administration of Justice. I think Child Development would be something that interests me a lot besides Criminal Justice. I'm working on finishing up my AA transfer degree in Administration of Justice.   
+ 
+
+
+
+
+##Past adventures?  
+Have you ever gone to foreign countries, if so which ones, if not Where might you go in the future?  Have you ever been in the military, if so which branch, if not which branch would you choose if you got drafted, and why?
+
+###my answer     
+  
+Besides Mexico, I've traveled to Costa Rica. The next one on my list is Spain. I've never been in the military but if I had to choose a branch, it would be the Air Force. Planes are fascinating.     
+  
+
+
+
+
+##Why are you taking Math 115?  
+What grade do you need to attain in stats to not upset your future plans, What is your plan?
+ 
+
+###my answer     
+  
+I need to obtain a B or higher to maintain a good gpa standing. My plan is to finish this last math class to be able to receive my degree in May of 2020.    
+ 
+
+
+
+
+
+##Homework Help and Getting around?  
+On a scale of 1 to 10, where 1 is a total dummy (doesn't know a mouse from a keyboard) and 10 is a complete geek (knows computer stuff in and out) How do you rate yourself?  Do you have a computer you can use at home? If so, what kind is it (windows, Apple, Linux)? Do you have internet access at home?  
+How do you get to class? Are there issues that limit when you can be at the college?Where and when did you attend high school?  Do you currently have a job?
+
+###my answer   
+
+I would have to give myself a solid 6. I do know how to get around a computer to do the simple stuff but programming isn't my forte. I do have a windows desktop at home and currently working on getting a laptop but I don't have a clue which one to purchase. I do have internet access at home but my desktop is very slow. I own a vehicle to get myself around. I don't have many issues to be able to get to class. I tend to get sick twice a year but I would still force myself to make it to class. I attended high school at Lancaster High down the street from AVC. I am currently employed. I work as a server.
+  
+
+
+
+
